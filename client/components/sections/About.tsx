@@ -13,7 +13,7 @@ export function About() {
     <section id="about" className="container py-20 md:py-28">
       <div className="grid gap-5 md:grid-cols-[1fr_2fr] md:items-center">
         <div className="relative h-48 w-48 md:h-64 md:w-64 rounded-2xl overflow-hidden shadow-xl border border-border">
-          <img src="public/ast/beka.pro.jpg" alt="Beka portrait" className="h-full w-full object-cover" />
+          <img src="ast/beka.pro.jpg" alt="Beka portrait" className="h-full w-full object-cover" />
         </div>
         <div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">About Me</h2>
