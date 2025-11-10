@@ -12,7 +12,7 @@ const projects = [
       "A personalized mobile commerce app with smart search, clean product grid, and bottom navigation. Designed for ease of browsing and fast purchases on the go, and delivered high-fidelity prototypes.",
     colorFrom: "from-[#111827]",
     colorTo: "to-[#4F8EF7]",
-    imageSrc: "public/ast/beka.pro 1.png",
+    imageSrc: "ast/beka.pro 1.png",
   },
   {
     id: "pro2",
@@ -22,7 +22,7 @@ const projects = [
       "Created a sleek and contemporary e-commerce UI for sneakerheads. Prioritized simple product discovery through minimal categories, a visible search bar, and engaging features such as wishlist and cart icons. Prioritized clean design, bold brand imagery (Nike), and adaptive navigation to maximize user shopping experience.",
     colorFrom: "from-[#0F172A]",
     colorTo: "to-[#9B59B6]",
-    imageSrc: "public/ast/beka.pro 2.png",
+    imageSrc: "ast/beka.pro 2.png",
   },
   {
     id: "pro3",
@@ -32,7 +32,7 @@ const projects = [
       "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as 'For You' and 'Recommends.",
     colorFrom: "from-[#111827]",
     colorTo: "to-[#22d3ee]",
-    imageSrc: "public/ast/beka.pro 3.png",
+    imageSrc: "ast/beka.pro 3.png",
   },
   {
     id: "pro4",
@@ -42,7 +42,7 @@ const projects = [
       "Created a modern dark-themed UI for an innovative service platform that provides video editing, color grading, and motion graphics. The interface prioritizes service discovery, user rewards, as well as promotion banners, adding value to the business and motivating users.",
     colorFrom: "from-[#0F172A]",
     colorTo: "to-[#34d399]",
-    imageSrc: "public/ast/beka.pro 4.png",
+    imageSrc: "ast/beka.pro 4.png",
   },
   {
     id: "pro5",
@@ -52,7 +52,7 @@ const projects = [
       "A modern portfolio site for a video editing business. It features services, client works, and collaborations with a comprehensible layout and engaging visuals.",
     colorFrom: "from-[#111827]",
     colorTo: "to-[#f59e0b]",
-    imageSrc: "public/ast/beka.pro 51.png",
+    imageSrc: "ast/beka.pro 51.png",
   },
   {
     id: "pro6",
@@ -62,7 +62,7 @@ const projects = [
       "A high-end watch store homepage with simple design, product focus, and promotional elements. It boasts clear visual hierarchy and user-friendly shopping navigation.",
     colorFrom: "from-[#0F172A]",
     colorTo: "to-[#ef4444]",
-    imageSrc: "public/ast/beka.pro 6 (1).png",
+    imageSrc: "ast/beka.pro 6 (1).png",
   },
 ];
 
