@@ -18,10 +18,16 @@ export function About() {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">About Me</h2>
           <p className="mt-4 text-foreground/80 max-w-2xl">
-            I’m Beka, a dedicated UI/UX designer with a background in IT (HNS). My career started in technology, 
-              leading me to develop excellent problem-solving and technical skills, and eventually guiding me to realize my love for creating visually appealing digital experiences that are also intuitive to use. 
-              I have spent all these years since that time developing my UI/UX design skills and I love to combine design and functionality – whether I’m designing visually interesting shadows of a button, or creating an entire user flow – I want to ensure that each detail reflects both beauty and usability. 
-              My aim is to create a design that not only looks good but feels good to use.
+            I 
+am a committed IT professional with a focus on Hardware and
+ Networking Services (HNS) while expanding my knowledge in UI/UX design
+ and web development. As someone who enjoys learning, I appreciate the
+ progress of positive results and bring significant problem-solving abilities
+ when engaged in IT development that yields positive business outcomes. I
+ have experience in utilizing Figma and Framer for design and using
+ Python/Django for backend development, and I want to refine a unified
+ understanding of design that can be done without compromising
+ technology reliability and user-measurable outcome at a multisci level.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             {skills.map((s) => (
