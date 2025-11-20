@@ -17,7 +17,7 @@ export const handleContact: RequestHandler = (req, res) => {
 
   // In production, forward to email/service (Resend, Postmark, Zapier, etc.)
   // For now, log to server and acknowledge receipt.
-  console.log("New contact submission:", { name, email, message });
+  console.log("bekafite@gmail.com:", { name, email, message });
 
   return res.status(200).json({ ok: true });
 };
