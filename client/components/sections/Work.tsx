@@ -3,69 +3,77 @@ import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const projects = [
+const projects: {
+  id: string;
+  title: string;
+  tools: string[];
+  description: string;
+  colorFrom: string;
+  colorTo: string;
+  imageSrc?: string;
+}[] = [
   {
     id: "pro1",
-    title: "Mill Online Shop (Mobile E-commerce App)",
+    title: "Healthcare Appointment App – UI/UX Design",
     tools: ["Figma", "User Testing"],
     description:
-      "A personalized mobile commerce app with smart search, clean product grid, and bottom navigation. Designed for ease of browsing and fast purchases on the go, and delivered high-fidelity prototypes.",
-    colorFrom: "from-[#111827]",
-    colorTo: "to-[#4F8EF7]",
-    imageSrc: "ast/beka.pro 1.png",
+      "A simple and friendly mobile app that helps people find doctors and book appointments without stress. I focused on clear layouts, smooth flows, and a calm design so users feel comfortable from sign-up to booking. Clean UI, easy navigation, and trust-first experience.",
+    colorFrom: "from-[#FBFCF8]",
+    colorTo: "to-[#374957]",
+    imageSrc: "ast/beka.do.jpg",
   },
   {
     id: "pro2",
-    title: "Sneaker Shopping App (Nike UI)",
+    title: "Digital Wallet & Finance App – UI/UX Design",
     tools: ["Figma"],
     description:
-      "Created a sleek and contemporary e-commerce UI for sneakerheads. Prioritized simple product discovery through minimal categories, a visible search bar, and engaging features such as wishlist and cart icons. Prioritized clean design, bold brand imagery (Nike), and adaptive navigation to maximize user shopping experience.",
-    colorFrom: "from-[#0F172A]",
-    colorTo: "to-[#9B59B6]",
-    imageSrc: "ast/beka.pro 2.png",
+      "A modern dark-mode finance app designed to help users manage money easily and securely. Focused on smooth onboarding, clear transactions, and simple insights, the design makes everyday payments and tracking feel effortless and intuitive. Clean UI, easy navigation, and trust-first experience.",
+    colorFrom: "from-[#110F1B]",
+    colorTo: "to-[#1F2F3C]",
+    imageSrc: "ast/beka.bl.jpg",
   },
   {
     id: "pro3",
-    title: "Book Library & Recommendation App",
+    title: "AI Assistant Chat App – UI/UX Design",
     tools: ["Figma", "Usability Testing"],
     description:
-      "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as 'For You' and 'Recommends.",
-    colorFrom: "from-[#111827]",
-    colorTo: "to-[#22d3ee]",
-    imageSrc: "ast/beka.pro 3.png",
+      "A friendly AI chat app designed to feel simple, helpful, and human. Focused on smooth onboarding, clear conversations, and quick actions, the interface makes interacting with AI feel natural and easy from the first tap.",
+    colorFrom: "from-[#171529]",
+    colorTo: "to-[#151031]",
+    imageSrc: "ast/beka.ai.jpg",
   },
   {
     id: "pro4",
-    title: "Video Editing Service App (VisionCraft)",
+    title: "Mill Online Shop (Mobile E-commerce App)",
     tools: ["Figma", "Tokens", "Documentation"],
     description:
-      "Created a modern dark-themed UI for an innovative service platform that provides video editing, color grading, and motion graphics. The interface prioritizes service discovery, user rewards, as well as promotion banners, adding value to the business and motivating users.",
+      "A personalized mobile commerce app with smart search, clean product grid, and bottom navigation. Designed for ease of browsing and fast purchases on the go.",
     colorFrom: "from-[#0F172A]",
     colorTo: "to-[#34d399]",
-    imageSrc: "ast/beka.pro 4.png",
+    imageSrc: "ast/beka.mi.jpg",
   },
   {
     id: "pro5",
-    title: "VisionCraft (Creative Agency Website)",
+    title: "Multi-Industry Web UI Collection – UI/UX Design",
     tools: ["Figma", "Prototyping"],
     description:
-      "A modern portfolio site for a video editing business. It features services, client works, and collaborations with a comprehensible layout and engaging visuals.",
+      "A set of modern web interfaces designed across different industries, including dashboards, tech startups, skincare e-commerce, and real estate. Each layout focuses on clear structure, strong visuals, and smooth user experience while keeping the design clean, human, and easy to navigate.",
     colorFrom: "from-[#111827]",
     colorTo: "to-[#f59e0b]",
-    imageSrc: "ast/beka.pro 51.png",
+    imageSrc: "ast/beka.ln.jpg",
   },
+
   {
     id: "pro6",
-    title: "BRIDGE Watch (Desktop E-commerce)",
+    title: "VisionCraft (Creative Agency Website)",
     tools: ["Figma"],
     description:
-      "A high-end watch store homepage with simple design, product focus, and promotional elements. It boasts clear visual hierarchy and user-friendly shopping navigation.",
+      "A modern portfolio site for a video editing business. It features services, client works, and collaborations with a comprehensible layout and engaging visuals.",
     colorFrom: "from-[#0F172A]",
     colorTo: "to-[#ef4444]",
-    imageSrc: "ast/beka.pro 6 (1).png",
+    imageSrc: "ast/beka.pro5.jpg",
   },
 ];
-
 export function Work() {
   return (
     <section id="work" className="container py-20">
