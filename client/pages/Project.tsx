@@ -57,7 +57,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro6: {
     title: "VisionCraft (Creative Agency Website)",
-    image: "/ast/beka.pro56.jpg",
+    image: "/ast/beka.pro 56.jpg",
     description:
       "A modern portfolio site for a video editing business. It features services, client works, and collaborations with a comprehensible layout and engaging visuals.",
     tools: ["Figma"],

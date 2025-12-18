@@ -71,7 +71,7 @@ const projects: {
       "A modern portfolio site for a video editing business. It features services, client works, and collaborations with a comprehensible layout and engaging visuals.",
     colorFrom: "from-[#0F172A]",
     colorTo: "to-[#ef4444]",
-    imageSrc: "ast/beka.pro5.jpg",
+    imageSrc: "ast/beka.pro 5.jpg",
   },
 ];
 export function Work() {
