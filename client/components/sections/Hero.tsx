@@ -12,7 +12,7 @@ export function Hero() {
               <Star className="size-3.5 text-accent" /> Available for freelance & full‑time
             </p>
             <h1 className="mt-6 text-4xl md:text-6xl font-extrabold tracking-tight leading-tight motion-safe:animate-fade-up" style={{ animationDelay: "120ms" }}>
-              Hi, I'm Beka — a UI/UX Designer crafting intuitive digital experiences.
+              Hi, I'm Beka  a UI/UX Designer crafting intuitive digital experiences.
             </h1>
             <p className="mt-4 text-lg text-foreground/70 max-w-2xl mx-auto motion-safe:animate-fade-up" style={{ animationDelay: "240ms" }}>
               I design clean, user‑focused websites and apps with a blend of creativity and strategy.
