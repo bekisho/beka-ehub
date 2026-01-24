@@ -36,7 +36,7 @@ am a committed IT professional with a focus on Hardware and
           </div>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild variant="outline">
-              <a href="/file:///C:/Users/aa/Downloads/CV.UI.pdf" download>Download CV</a>
+              <a href="https://drive.google.com/file/d/1VoueX4ZN-XUVcMt68D-kIyIzL-y_-L92/view?usp=sharing" download>Download CV</a>
             </Button>
             <Button asChild variant="ghost">
               <a href="#process">My Design Process</a>
