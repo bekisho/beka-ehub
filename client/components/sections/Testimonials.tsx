@@ -1,21 +1,21 @@
 const testimonials = [
   {
     quote:
-      "Beka elevated our product with systems‑thinking and a calm, user‑first mindset. A joy to collaborate with.",
-    name: "Alex Kim",
-    role: "PM, Nimbus Analytics",
+      "Easy to use, clean, and very calming. Booking a doctor feels simple and stress-free..",
+    name: "Product Manager",
+    role: "HealthTech Startup",
   },
   {
     quote:
-      "Pragmatic, fast, and meticulous. Our onboarding metrics improved within weeks of Beka’s redesign.",
-    name: "Jordan Lee",
-    role: "Head of Growth, Flowly",
+      "Looks professional and modern. Everything is clear and easy to understand. Great job!",
+    name: "Founder",
+    role: "Digital Wallet App",
   },
   {
     quote:
-      "Beka combines craft and strategy—great instincts backed by research. Users loved the new experience.",
-    name: "Priya Patel",
-    role: "Design Lead, Aurora Health",
+      "“Feels friendly and smart. Chatting with the AI is smooth and natural.",
+    name: "CTO",
+    role: "AI Platform",
   },
 ];
 
