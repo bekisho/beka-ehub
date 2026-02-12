@@ -60,7 +60,7 @@ const projects: {
       "A set of modern web interfaces designed across different industries, including dashboards, tech startups, skincare e-commerce, and real estate. Each layout focuses on clear structure, strong visuals, and smooth user experience while keeping the design clean, human, and easy to navigate.",
     colorFrom: "from-[#111827]",
     colorTo: "to-[#f59e0b]",
-    imageSrc: "ast/beka.ln.jpg",
+    imageSrc: "ast/land.png",
   },
 
   {
