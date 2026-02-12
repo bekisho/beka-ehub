@@ -34,13 +34,13 @@ const projects: {
   },
   {
     id: "pro3",
-    title: "AI Assistant Chat App – UI/UX Design",
+    title: "Book Library & Recommendation App",
     tools: ["Figma", "Usability Testing"],
     description:
-      "A friendly AI chat app designed to feel simple, helpful, and human. Focused on smooth onboarding, clear conversations, and quick actions, the interface makes interacting with AI feel natural and easy from the first tap.",
+      "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as For You and Recommends.",
     colorFrom: "from-[#171529]",
     colorTo: "to-[#151031]",
-    imageSrc: "ast/beka.ai.jpg",
+    imageSrc: "ast/beka.pro 3.png",
   },
   {
     id: "pro4",

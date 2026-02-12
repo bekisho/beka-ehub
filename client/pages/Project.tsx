@@ -29,10 +29,10 @@ const PROJECTS: Record<string, Project> = {
     outcomes: "Activation +18%, support tickets −12% within first 30 days",
   },
   pro3: {
-    title: "AI Assistant Chat App – UI/UX Design",
+    title: "Book Library & Recommendation App",
     image: "/ast/beka.pro 3.png",
     description:
-      "A friendly AI chat app designed to feel simple, helpful, and human. Focused on smooth onboarding, clear conversations, and quick actions, the interface makes interacting with AI feel natural and easy from the first tap.",
+      "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as For You and Recommends.",
     tools: ["Figma", "Usability Testing"],
     role: "Audit, wireframes, UI polish, prototype, moderated tests",
     outcomes: "Checkout conversion +11%, cart abandonment −9%",
