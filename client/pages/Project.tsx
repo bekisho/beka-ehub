@@ -30,7 +30,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro3: {
     title: "Book Library & Recommendation App",
-    image: "/ast/beka.pro 3.png",
+    image: "/ast/book.png",
     description:
       "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as For You and Recommends.",
     tools: ["Figma", "Usability Testing"],
@@ -48,7 +48,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro5: {
     title: "Multi-Industry Web UI Collection – UI/UX Design",
-    image: "/ast/beka.ln5.jpg",
+    image: "/ast/land.png",
     description:
       "A set of modern web interfaces designed across different industries, including dashboards, tech startups, skincare e-commerce, and real estate. Each layout focuses on clear structure, strong visuals, and smooth user experience while keeping the design clean, human, and easy to navigate.",
     tools: ["Figma", "Prototyping"],

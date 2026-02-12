@@ -40,7 +40,7 @@ const projects: {
       "Developed a user-centered library app UI enabling users to discover, search, and save books according to interests. Focused on accessibility and interactivity with vibrant visuals and personalized recommendation categories such as For You and Recommends.",
     colorFrom: "from-[#171529]",
     colorTo: "to-[#151031]",
-    imageSrc: "ast/beka.pro 3.png",
+    imageSrc: "ast/book.png",
   },
   {
     id: "pro4",
