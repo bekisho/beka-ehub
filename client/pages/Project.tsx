@@ -12,7 +12,7 @@ type Project = {
 const PROJECTS: Record<string, Project> = {
   pro1: {
     title: "Healthcare Appointment App – UI/UX Design",
-    image: "/ast/beka.do1.jpg",
+    image: "/ast/beka.do17.jpg",
     description:
       "A simple and friendly mobile app that helps people find doctors and book appointments without stress. I focused on clear layouts, smooth flows, and a calm design so users feel comfortable from sign-up to booking. Clean UI, easy navigation, and trust-first experience.",
     tools: ["Figma"],
@@ -30,7 +30,7 @@ const PROJECTS: Record<string, Project> = {
   },
   pro3: {
     title: "AI Assistant Chat App – UI/UX Design",
-    image: "/ast/beka.ai3.jpg",
+    image: "/ast/beka.pro 3.png",
     description:
       "A friendly AI chat app designed to feel simple, helpful, and human. Focused on smooth onboarding, clear conversations, and quick actions, the interface makes interacting with AI feel natural and easy from the first tap.",
     tools: ["Figma", "Usability Testing"],
